@@ -3,17 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Yoga with [Your Name]</title>
-  ginner‑friendly." />
+  <title>Yoga with Shaunna </title>
+  <meta name="description" content="Private yoga sessions tailored to your goals. ♡♡ In‑person & online. Beginner‑friendly." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
   <style>
-    :root{
-      --bg:#faf9f7; --text:#1b1b1b; --muted:#5f6368; --brand:#5c7c6a; --brand-2:#8fb49a;
-      --card:#ffffff; --ring:rgba(92,124,106,0.25);
-    }
-    *{box-sizing:border-box}
+:root{
+  --bg:#fffdf8;        /* soft cream background */
+  --text:#2c2620;      /* dark brown-grey for readable text */
+  --muted:#8a837b;     /* soft grey-brown for subtitles */
+  --brand:#f6a865;     /* pastel orange for buttons/links */
+  --brand-2:#fcd97c;   /* pastel yellow accent */
+  --card:#ffffff;      /* white cards */
+  --ring:rgba(246,168,101,0.3); /* glow effect matching brand */
+}
     html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);}
     a{color:var(--brand);text-decoration:none}
     a:hover{opacity:.9}
@@ -56,9 +60,9 @@
   </style>
 </head>
 <body>
-  <!-- TODO: Replace bracketed placeholders like [Your Name], [Your City/Area], [Your phone], [your@email], and [yoendly]. Update prices if needed. -->
   <header>
-  d="your-name">[Your Name]</span></div>
+    <div class="container nav">
+      <div class="logo">Yoga with <span id="Shaunna">Shaunna span></div>
       <nav aria-label="Main">
         <a href="#about">About</a>
         <a href="#services">Services</a>
@@ -71,12 +75,15 @@
   <main>
     <section class="container hero">
       <div>
-        <h1>Private yoga tailored to your boup sessions, in‑person or online. Whether you're new to yoga or deepening your practice, we'll build a plan that meets you where you are.</p>
+        <h1>Private yoga tailored to your body & goals</h1>
+        <p>One‑to‑one and small‑group sessions, in‑person or online. Whether you're new to yoga or deepening your practice, we'll work together and build a plan that meets you where you are. </p>
         <div style="display:flex;gap:12px;margin-top:18px">
           <a class="btn" href="#contact">Book a free consult</a>
           <a class="btn btn--ghost" href="#services">See pricing</a>
         </div>
-        <p class="muted" style="margin-top:10px">ACC‑friendly • Trauma‑sensitive • Beginner‑frated twist with sunlight.">
+        <p class="muted" style="margin-top:10px"> • Beginner‑friendly• </p>
+      </div>
+      <div class="card" aria-label="Photo alt text: student in gentle seated twist with sunlight.">
         <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1200&auto=format&fit=crop" alt="Person practicing gentle yoga pose" style="width:100%; height:auto; border-radius:12px"/>
       </div>
     </section>
@@ -85,20 +92,31 @@
       <h2>About me</h2>
       <div class="grid-2">
         <div class="card">
-          <p>Hi, I’m <strong>[Your Name]</strong> (RYT‑200/500). I help busy people reduce stress, build strength gently, and feel at home in their bodies. My approach blends breath‑led movement,>
+          <p>Hi, I’m <strong>Shaunna strong> (RYT‑200/500). I help busy people reduce stress, build strength gently, and feel at home in their bodies. My approach blends breath‑led movement, mobility work, and nervous‑system regulation. </p>
           <ul class="list">
-            <li>Specialties: back care, prenatal & postnatal, desk‑worker mobility</li>
-            <li>Formats: in‑home ([Your City/Area]), studio, or Zoom</li>
-            <li>Availability: [Your availability]</li>
+            <li>Specialties: back care, desk‑worker mobility, common gym injuries </li>
+            <li>Formats: in‑home (Queenstown), or Zoom </li>
+            <li>Availability: Reach to out this find what works best </li>
           </ul>
         </div>
         <div class="card">
           <h3 style="margin-top:0">Credentials</h3>
-        iance RYT‑200/500 – [Your school + year]</li>
-            <li>First Aid /        <li>[Any specialty training or modalities]</li>
+          <ul class="list">
+            <li>Yoga Alliance RYT‑200 https://www.prathamyoga.com/</li>
+            <li>First Aid / CPR (current)</li>
+            <li>Mental Health First Aid trained li>
           </ul>
-          <p class="muted">Update thate Session</h3>
-          <p class="price">$95 <span class="muted" style="font-size:14px">/ 60 min</span></p>
+          <p class="muted">Replace these with your real details.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="container section">
+      <h2>Services & pricing</h2>
+      <div class="grid-3">
+        <div class="card" role="region" aria-labelledby="svc1">
+          <h3 id="svc1" style="margin-top:0">1:1 Private Session</h3>
+          <p class="price"> From $95 <span class="muted" style="font-size:14px">/ 60 min</span></p>
           <ul class="list">
             <li>Tailored to goals & injuries</li>
             <li>In‑person (local) or Zoom</li>
@@ -110,8 +128,8 @@
           <h3 id="svc2" style="margin-top:0">Small Group (2–4)</h3>
           <p class="price">$140 <span class="muted" style="font-size:14px">/ 60 min</span></p>
           <ul class="list">
-            <li>Friends, couples, or team</li>
-            <li>At your home or studio</li>
+            <li>Friends, couples, wholesome team building, or a different way to celebrate a special occasion – like hen parties, birthdays, and anniversaries </li>
+            <li>At your home or can arrange space at my place </li>
             <li>Price per group</li>
           </ul>
           <a class="btn" href="#contact">Book</a>
@@ -153,7 +171,7 @@
       <div class="faq">
         <details>
           <summary>What should I bring?</summary>
-          <p>A mat, water, and any props you enjoy. I can supply blocks & straps if needed.</p>
+          <p>A mat, water, and any props you enjoy. I can supply blocks, bolster or straps if needed.</p>
         </details>
         <details>
           <summary>Do you offer online sessions?</summary>
@@ -197,10 +215,10 @@
         <div class="card">
           <h3 style="margin-top:0">Prefer to book directly?</h3>
           <p>
-            Add your <a href="https://calendly.com/[your-calendly]" id="calendly-link">Calendly/booking link</a> here, or WhatsApp: <a href="tel:[Your phone in intl format]">[Your phone]</a>.
+            Add your <a href="#" id="calendly-link">Calendly/booking link</a> here, or WhatsApp: <a href="tel:+6421000000">+64 21 000 000</a>.
           </p>
           <p>
-            <strong>Location:</strong> [Your City/Area], NZ — in‑home visits within [Your radius], or online worldwide.
+            <strong>Location:</strong> Auckland, NZ — in‑home visits within 20km, or online worldwide.
           </p>
           <p class="muted">You can hide this panel if you only use the form.</p>
         </div>
@@ -212,8 +230,11 @@
     <div class="container">
       <div class="grid-2">
         <div>
-          <strong>Yoga with [Your Name]</strong>
-          <p clational) • <a href="https://instagram.com/[yourhandle]">Instagram</a> • <a href="mailto:[your@email]">Email</a></p>
+          <strong>Yoga with YOUR NAME</strong>
+          <p class="muted">© <span id="year"></span> All rights reserved.</p>
+        </div>
+        <div>
+          <p class="muted">ABN/NZBN (optional) • <a href="#">Instagram</a> • <a href="#">Email</a></p>
         </div>
       </div>
     </div>
@@ -221,7 +242,9 @@
 
   <script>
     // Simple helpers
-    document.getElemelinks
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Smooth scroll for internal links
     document.querySelectorAll('a[href^="#"]').forEach(a=>{
       a.addEventListener('click',e=>{
         const id=a.getAttribute('href').slice(1);
